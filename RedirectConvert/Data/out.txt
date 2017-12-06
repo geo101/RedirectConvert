@@ -1,0 +1,7 @@
+RewriteCond %{QUERY_STRING} ^/?p=cat_products$
+RewriteRule ^/*$ http://www.mysite.com/cat-products? [NC,R=301,L]
+#
+RewriteCond %{QUERY_STRING} ^/?p=dog_products$
+RewriteRule ^/*$ http://www.mysite.com/dog-products? [NC,R=301,L]
+#
+

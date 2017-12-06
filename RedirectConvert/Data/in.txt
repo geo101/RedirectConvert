@@ -1,0 +1,2 @@
+redirect 301 /?p=cat_products http://www.mysite.com/cat-products
+redirect 301 /?p=dog_products http://www.mysite.com/dog-products
